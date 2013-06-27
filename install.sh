@@ -2,7 +2,7 @@
 
 create_symlinks () {
     if [ ! -f ~/.vim ]; then
-        ln -sfn ~/dotvim ~/.vim
+	ln -sfn ~/dotvim/ ~/.vim
     fi
 
     if [ ! -f ~/.vimrc ]; then
